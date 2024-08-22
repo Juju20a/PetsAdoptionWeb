@@ -12,7 +12,7 @@ const ComprasCard = ({ produtos = [] }) => {
               <Card.Body>
                 <Card.Title>{produto.titulo}</Card.Title>
                 <Card.Text>{produto.descricao}</Card.Text>
-                <Button variant="primary">Comprar</Button>
+                <Button variant="primary">Ver</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -27,3 +27,4 @@ ComprasCard.propTypes = {
 };
 
 export default ComprasCard;
+
