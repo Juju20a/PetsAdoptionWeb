@@ -27,4 +27,4 @@ Carrosel.propTypes = {
   itens: PropTypes.array,
 };
 
-export default Carrosel;
+export default Carrosel; 
