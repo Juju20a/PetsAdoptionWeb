@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <Navbar bg="primary" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Salento.</Navbar.Brand>
+          <Navbar.Brand href="#home">PetsJS.</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">Cardápio</Nav.Link>
@@ -18,3 +18,4 @@ const Header = () => {
 };
 
 export default Header;
+
