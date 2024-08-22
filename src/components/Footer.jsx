@@ -1,72 +1,19 @@
-import {
-  MDBCol,
-  MDBContainer,
-  MDBFooter,
-  MDBIcon,
-  MDBRow,
-} from 'mdb-react-ui-kit';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
-const Footer = () => {
+const Header = () => {
   return (
-    <footer className="mt-5">
-      <MDBFooter
-        bgColor="light"
-        className="text-center text-lg-start text-muted"
-      >
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div className="me-5 d-none d-lg-block">
-            <span>Conecte as nossas redes sociais:</span>
-          </div>
-
-          <div>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="twitter" />
-            </a>
-            <a href="" className="me-4 text-reset">
-              <MDBIcon color="secondary" fab icon="instagram" />
-            </a>
-          </div>
-        </section>
-
-        <section className="">
-          <MDBContainer className="text-center text-md-start mt-5">
-            <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <MDBIcon color="secondary" icon="gem" className="me-3" />
-                  PetsJS.
-                </h6>
-                <p>O melhor petshop da região.</p>
-              </MDBCol>
-
-              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contato</h6>
-                <p>
-                  <MDBIcon color="secondary" icon="home" className="me-2" />
-                  Paraíba, PB 10012, US
-                </p>
-                <p>
-                  <MDBIcon color="secondary" icon="envelope" className="me-3" />
-                  PetsJS@Gmail.com
-                </p>
-                <p>
-                  <MDBIcon color="secondary" icon="phone" className="me-3" /> +
-                  83 234 567 88
-                </p>
-              </MDBCol>
-            </MDBRow>
-          </MDBContainer>
-        </section>
-
-        <div
-          className="text-center p-4"
-          style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}
-        >
-          © 2024 PetJS.
-        </div>
-      </MDBFooter>
-    </footer>
+    <header>
+      <Navbar bg="primary" data-bs-theme="dark">
+        <Container>
+          <Navbar.Brand href="#home">PetsJS.</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#pricing">Sobre</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </header>
   );
 };
 
-export default Footer;
+export default Header;
