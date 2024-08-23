@@ -9,7 +9,7 @@ const ComprasTable = ({ produtos = [] }) => {
           <th>Id</th>
           <th>Título</th>
           <th>Descrição</th>
-          <th>Valor</th>
+          <th>Animais para adoção</th>
         </tr>
       </thead>
       <tbody>
@@ -19,7 +19,7 @@ const ComprasTable = ({ produtos = [] }) => {
               <td>{produto.id}</td>
               <td>{produto.titulo}</td>
               <td>{produto.descricao}</td>
-              <td>{produto.valor}</td>
+              <td>{produto.animaisParaAdocao}</td>
             </tr>
           );
         })}
