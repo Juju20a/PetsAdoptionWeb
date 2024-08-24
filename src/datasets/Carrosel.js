@@ -1,7 +1,7 @@
 let itens = [
   {
     imagemUrl:
-      'https://https://media.istockphoto.com/id/1884799433/pt/foto/girl-and-her-french-bulldog-testing-a-ball.jpg?s=1024x1024&w=is&k=20&c=MrBG4VB_kyO6TxKxv0RB93HTpdw8zrWAuoB1fyWUo-g=',
+      'https://media.istockphoto.com/id/652776610/pt/foto/cute-golden-retriever-and-tibetan-terrier-in-pet-store.jpg?s=1024x1024&w=is&k=20&c=P1zMoaO32tautUZ3mNM9mMBx6JKTzAnIY-e0_uX8pxY=',
     titulo: 'PetsJS',
     descricao: 'Loja!',
   },
