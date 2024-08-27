@@ -64,7 +64,7 @@ const Footer = () => {
           className="text-center p-4"
           style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}
         >
-          © 2024 PetsJS.
+          © 2024 PetsAdoptionWeb.
         </div>
       </MDBFooter>
     </footer>
