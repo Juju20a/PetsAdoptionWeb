@@ -17,9 +17,17 @@ const ComprasTable = ({ produtos = [] }) => {
           return (
             <tr key={produto.id}>
               <td>{produto.id}</td>
+        
               <td>{produto.titulo}</td>
               <td>{produto.descricao}</td>
-              <td>{produto.animaisParaAdocao}</td>
+              <td>{produto.animaisparadoacao}</td>
+              <th>
+                <img
+                  
+                  src={produto.imagemUrl}
+                  alt={produto.animaisparadoacao}
+                  style={{ width: '70px', height: 'auto'}}/>
+              </th>
             </tr>
           );
         })}
